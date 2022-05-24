@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Unit Converter</title>
+</head>
+<body>
+  <div class="container">
+    <header id="top">
+      <h2>Metric/Imperial unit Conversion</h2>
+      <h1 id="unit-number">1</h1>
+      <button id="increment-btn" onclick="increment()">INCREMENT BY 1</button>
+      <button id="refresh-btn" onclick="refresh()">REFRESH</button>
+    </header>
+
+    <section id="bottom">
+      <div id="length">
+        <p><strong>Length(Meter/Feet)</strong></p>
+        <span id="meter-to-feet"></span><span> -------------------------------------------------------- </span><span id="feet-to-meter"></span>
+      </div>
+      <div id="volume">
+        <p><strong>Volume(Liters/Gallons)</strong></p>
+        <span id="liter-to-gallon"></span><span>--------------------------------------------------------</span><span id="gallon-to-liter"></span>
+      </div>
+      <div id="mass">
+        <p><strong>Mass(Kilograms/Pounds)</strong></p>
+        <span id="kilogram-to-pound"></span><span>--------------------------------------------------------</span><span id="pound-to-kilogram"></span>
+      </div>
+    </section>
+  </div>
+  
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
